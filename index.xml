@@ -1,15 +1,43 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>我的博客</title>
+    <title>我的学习资源库</title>
     <link>http://example.org/</link>
-    <description>Recent content on 我的博客</description>
+    <description>Recent content on 我的学习资源库</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans</language>
-    <lastBuildDate>Sat, 17 Aug 2019 12:11:14 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 17 Aug 2019 17:41:56 +0800</lastBuildDate>
     
 	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>资料库</title>
+      <link>http://example.org/posts/%E8%B5%84%E6%96%99%E5%BA%93/</link>
+      <pubDate>Sat, 17 Aug 2019 17:41:56 +0800</pubDate>
+      
+      <guid>http://example.org/posts/%E8%B5%84%E6%96%99%E5%BA%93/</guid>
+      <description>刚学完hogo编写博客这一课程，下面我来做个简单的总结，自己动手编写一个博客。
+初次通过hugo编写博客，有一下几个步骤：
+1.Install Hugo
+（1.1）brew install hugo 安装hugo软件
+（1.2）hugo version 检查有没有安装成功
+2.Create a New Site
+hugo new site quickstart 创建一个站点
+3.Add a Theme 添加主题
+(3.1)git init
+(3.2)git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke
+(3.3)echo &amp;lsquo;theme = &amp;ldquo;ananke&amp;rdquo;&amp;rsquo; &amp;gt;&amp;gt; config.toml
+4.Add Some Content 添加一些内容
+（4.1）hugo new posts/my-first-post.md
+（4.2）code .进行内容的编写
+(4.3)编写完毕后将draft: true改成draft: false；并保存
+5.Start the Hugo server 启动hugo服务器
+hugo server -D 在启动该服务器后会有一个网址： http://localhost:1313/ 通过长按CTRL点击这个网址就可以打开你所写的博客。
+注意：千万不要点击CTRL+c
+6.Customize the Theme 自定义主题
+打开vscode,按CTRKL+P搜索config.toml，然后自定义主题即可 7.Build static pages 构建静态页面</description>
+    </item>
     
     <item>
       <title>开博大吉</title>

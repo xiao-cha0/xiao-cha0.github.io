@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     
-    <title>我的博客 </title>
+    <title>我的学习资源库 </title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
     <meta name="generator" content="Hugo 0.56.3" />
     
@@ -24,8 +24,8 @@
     
 
     
-      <link href="http://example.org/posts/index.xml" rel="alternate" type="application/rss+xml" title="我的博客" />
-      <link href="http://example.org/posts/index.xml" rel="feed" type="application/rss+xml" title="我的博客" />
+      <link href="http://example.org/posts/index.xml" rel="alternate" type="application/rss+xml" title="我的学习资源库" />
+      <link href="http://example.org/posts/index.xml" rel="feed" type="application/rss+xml" title="我的学习资源库" />
     
 
     <meta property="og:title" content="Posts" />
@@ -33,7 +33,7 @@
 <meta property="og:type" content="website" />
 <meta property="og:url" content="http://example.org/posts/" />
 
-<meta property="og:updated_time" content="2019-08-17T12:11:14+08:00" />
+<meta property="og:updated_time" content="2019-08-17T17:41:56+08:00" />
 <meta itemprop="name" content="Posts">
 <meta itemprop="description" content="">
 
@@ -52,7 +52,7 @@
       <nav class="pv3 ph3 ph4-ns" role="navigation">
   <div class="flex-l justify-between items-center center">
     <a href="http://example.org/" class="f3 fw2 hover-white no-underline white-90 dib">
-      我的博客
+      我的学习资源库
     </a>
     <div class="flex-l items-center">
       
@@ -94,6 +94,40 @@
   <div class="bg-white mb3 pa4 gray overflow-hidden">
     <span class="f6 db">Posts</span>
     <h1 class="f3 near-black">
+      <a href="/posts/%E8%B5%84%E6%96%99%E5%BA%93/" class="link black dim">
+        资料库
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      刚学完hogo编写博客这一课程，下面我来做个简单的总结，自己动手编写一个博客。
+初次通过hugo编写博客，有一下几个步骤：
+1.Install Hugo
+（1.1）brew install hugo 安装hugo软件
+（1.2）hugo version 检查有没有安装成功
+2.Create a New Site
+hugo new site quickstart 创建一个站点
+3.Add a Theme 添加主题
+(3.1)git init
+(3.2)git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke
+(3.3)echo &lsquo;theme = &ldquo;ananke&rdquo;&rsquo; &gt;&gt; config.toml
+4.Add Some Content 添加一些内容
+（4.1）hugo new posts/my-first-post.md
+（4.2）code .进行内容的编写
+(4.3)编写完毕后将draft: true改成draft: false；并保存
+5.Start the Hugo server 启动hugo服务器
+hugo server -D 在启动该服务器后会有一个网址： http://localhost:1313/ 通过长按CTRL点击这个网址就可以打开你所写的博客。
+注意：千万不要点击CTRL+c
+6.Customize the Theme 自定义主题
+打开vscode,按CTRKL+P搜索config.toml，然后自定义主题即可 7.Build static pages 构建静态页面
+    </div>
+  </div>
+</div>
+</div>
+      
+        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb4 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa4 gray overflow-hidden">
+    <span class="f6 db">Posts</span>
+    <h1 class="f3 near-black">
       <a href="/posts/%E5%BC%80%E5%8D%9A%E5%A4%A7%E5%90%89/" class="link black dim">
         开博大吉
       </a>
@@ -113,7 +147,7 @@
     <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
   <div class="flex justify-between">
   <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://example.org/" >
-    &copy; 2019 我的博客
+    &copy; 2019 我的学习资源库
   </a>
     <div>
 
